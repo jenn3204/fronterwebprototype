@@ -7,7 +7,7 @@ img {
     width: 100%;
 }
 
-header {
+.indexheader {
     background-color: #EA5045;
     margin: 0;
     width: 100%;
@@ -24,13 +24,115 @@ h1 {
     text-align: center;
 }
 
-#keatitle {
+.indexheader #keatitle {
     background-color: #EA5045;
-    height: 50vw;
+    height: 250px;
     text-align: center;
 }
 
-#keaimg {
+.indexheader #keaimg {
     width: 200px;
-    margin-top: 15vw;
+    margin-top: 100px;
+}
+
+.sideheader #keatitle {
+    background-color: #EA5045;
+    height: 50px;
+}
+
+.sideheader #keaimg {
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#profile {
+    width: 20px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+
+#burgericon {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.login_container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type=password],
+input[type=text],
+input[type=submit] {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2px 8px;
+    width: 300px;
+    height: 40px;
+    margin: 2vw;
+    font-size: 1rem;
+    color: #EA5045;
+
+}
+
+.password {
+    margin-bottom: 15vw;
+}
+
+.continue input[type=submit] {
+    background-color: #EA5045;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.fb input[type=submit] {
+    border: 2px solid #EA5045;
+    background-color: white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #EA5045;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: ;
+}
+
+.box {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.box2 {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    flex-basis: 100px;
+    flex-grow: 4.5;
+}
+
+.box3 {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    flex-basis: 100px;
+    flex-grow: 4.5;
 }
