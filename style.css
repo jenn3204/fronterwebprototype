@@ -7,7 +7,7 @@ img {
     width: 100%;
 }
 
-/***TEXT***/
+/***h'ere***/
 
 h1 {
     color: white;
@@ -41,7 +41,12 @@ h6 {
     color: #F58E81;
 }
 
+#forside a {
+    text-decoration: none;
+}
 
+
+/***Index.html header***/
 
 .indexheader {
     background-color: #EA5045;
@@ -51,10 +56,6 @@ h6 {
 
 #header_container {
     background-color: #EA5045;
-}
-
-#forside a {
-    text-decoration: none;
 }
 
 .indexheader #keatitle {
@@ -68,30 +69,7 @@ h6 {
     margin-top: 100px;
 }
 
-.sideheader #keatitle {
-    background-color: #EA5045;
-    height: 50px;
-}
-
-.sideheader #keaimg {
-    width: 80px;
-    margin-top: 15px;
-    margin-left: 10px;
-}
-
-#profile {
-    width: 20px;
-    position: absolute;
-    right: 50px;
-    top: 15px;
-}
-
-#burgericon {
-    width: 20px;
-    position: absolute;
-    right: 10px;
-    top: 15px;
-}
+/*** Log ind funtionen ***/
 
 .login_container {
     text-align: center;
@@ -133,6 +111,37 @@ input[type=submit] {
     color: #EA5045;
 }
 
+/*** header på de andre sider ***/
+
+.sideheader #keatitle {
+    background-color: #EA5045;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+.sideheader #keaimg {
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#profile {
+    width: 20px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+
+#burgericon {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+/*** Forside bokse ***/
+
 .col1,
 .col2,
 .col3,
@@ -146,7 +155,7 @@ input[type=submit] {
     background-color: white;
     width: 150px;
     height: 150px;
-    margin: 10px;
+    margin: 8px;
     flex-basis: 100px;
     flex-grow: 1;
     text-align: center;
@@ -156,7 +165,7 @@ input[type=submit] {
     background-color: white;
     width: 300px;
     height: 150px;
-    margin: 10px;
+    margin: 8px;
     flex-basis: 100px;
     flex-grow: 4.5;
     text-align: center;
@@ -166,7 +175,7 @@ input[type=submit] {
     background-color: white;
     width: 300px;
     height: 310px;
-    margin: 10px;
+    margin: 8px;
     flex-basis: 100px;
     flex-grow: 4.5;
     text-align: center;
