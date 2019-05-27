@@ -1,0 +1,36 @@
+body {
+    background-color: #FAF7F7;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: #EA5045;
+    margin: 0;
+    width: 100%;
+
+}
+
+#header_container {
+    background-color: #EA5045;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+#keatitle {
+    background-color: #EA5045;
+    height: 50vw;
+    text-align: center;
+}
+
+#keaimg {
+    width: 200px;
+    margin-top: 15vw;
+}
