@@ -15,6 +15,17 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #F58E81;
+
+}
+
+h3 {
+    color: white;
+}
+
 p {
     margin: 0;
 }
@@ -42,6 +53,10 @@ h6 {
 }
 
 #forside a {
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -191,4 +206,49 @@ input[type=submit] {
     width: 60px;
     margin-top: 35px;
     margin-bottom: 20px;
+}
+
+/*** BURGERMENU ***/
+
+#menu {
+    background-color: #3F3140;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+#menulist {
+    text-align: center;
+    padding: 20px;
+    background-color: #3F3140;
+}
+
+#keaicon {
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.keaimg {
+    text-align: center;
+}
+
+#menuknap {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#logud {
+    background-color: #EA847C;
+    padding: 1px;
+    margin-top: 165px;
 }
