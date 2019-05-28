@@ -270,10 +270,6 @@ input[type=submit] {
     font-family: 'Montserrat', sans-serif;
 }
 
-.hidden {
-    visibility: hidden;
-}
-
 #logud {
     background-color: #EA847C;
     padding: 1px;
@@ -307,45 +303,6 @@ input[type=submit] {
     padding: 12px;
 }
 
-/**.trykwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}**/
-
-.tematryk {
-    flex-grow: 1;
-    flex-basis: 100px;
-    background-color: #DEDCDB;
-    width: 350px;
-    height: 50px;
-    padding: 12px;
-    margin: 10px 60px 0;
-
-}
-
-.pilnedtryk {
-    width: 13px;
-    position: relative;
-    left: 330px;
-    bottom: 20px;
-}
-
-.scollnedbox {
-    width: 350px;
-    height: 50px;
-    border: 1px solid #DEDCDB;
-    margin: 0 60px;
-    flex-grow: 1;
-    flex-basis: 100px;
-    padding: 12px;
-}
-
-.move {
-    height: 0;
-    visibility: hidden;
-}
-
 .tema {
     flex-grow: 1;
     flex-basis: 300px;
@@ -373,4 +330,50 @@ input[type=submit] {
     position: relative;
     left: 330px;
     bottom: 20px;
+}
+
+.tematryk {
+    flex-grow: 1;
+    flex-basis: 100px;
+    background-color: #DEDCDB;
+    width: 350px;
+    height: 50px;
+    padding: 12px;
+    margin: 10px 60px 0;
+
+}
+
+#pilnedtryk {
+    width: 13px;
+    position: relative;
+    left: 330px;
+    bottom: 20px;
+}
+
+#piloptryk {
+    width: 13px;
+    position: relative;
+    left: 330px;
+    bottom: 40px;
+}
+
+.scollnedbox {
+    width: 350px;
+    height: 50px;
+    border: 1px solid #DEDCDB;
+    margin: 0 60px;
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding: 12px;
+}
+
+/** KLASSER **/
+
+.move {
+    height: 0;
+    visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden;
 }
