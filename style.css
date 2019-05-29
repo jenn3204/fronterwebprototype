@@ -21,7 +21,10 @@ h2 {
     text-decoration: none;
     color: #F58E81;
     font-family: 'Montserrat', sans-serif;
+}
 
+h2:hover {
+    color: #DEDCDB;
 }
 
 h3 {
@@ -81,6 +84,22 @@ a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #F58E81;
+}
+
+a:hover {
+    color: #DEDCDB;
+}
+
+.box:hover {
+    background-color: #DEDCDB;
+}
+
+.box2:hover {
+    background-color: #DEDCDB;
+}
+
+.box3:hover {
+    background-color: #DEDCDB;
 }
 
 label {
@@ -273,10 +292,10 @@ input[type=submit] {
 }
 
 #keaicon {
-    width: 200px;
+    width: 180px;
     text-align: center;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 30vw;
 }
 
 .keaimg {
@@ -348,7 +367,7 @@ input[type=submit] {
     background-color: #DEDCDB;
     width: 350px;
     height: 50px;
-    margin: 10px 30px;
+    margin: 20px 30px 10px;
     padding: 12px;
 
 }
@@ -365,13 +384,13 @@ input[type=submit] {
 .ikon {
     width: 20px;
     position: relative;
-    left: 280px;
+    left: 330px;
 }
 
 .pilned {
     width: 13px;
     position: relative;
-    left: 280px;
+    left: 330px;
     bottom: 20px;
 }
 
@@ -381,7 +400,7 @@ input[type=submit] {
     background-color: #DEDCDB;
     width: 350px;
     height: 50px;
-    margin: 10px 30px;
+    margin: 10px 30px 0;
     padding: 12px;
 
 }
@@ -389,7 +408,7 @@ input[type=submit] {
 #pilnedtryk {
     width: 13px;
     position: relative;
-    left: 280px;
+    left: 330px;
     bottom: 20px;
 }
 
@@ -404,7 +423,7 @@ input[type=submit] {
     width: 350px;
     height: 50px;
     border: 1px solid #DEDCDB;
-    margin: 0 60px;
+    margin: 0 30px;
     flex-grow: 1;
     flex-basis: 100px;
     padding: 12px;
