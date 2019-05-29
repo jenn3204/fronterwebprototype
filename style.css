@@ -31,15 +31,15 @@ h3 {
 
 h4 {
     color: #F58E81;
-    margin-top: 100px;
-    font-size: 4rem;
+    margin-top: 70px;
+    font-size: 3.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 h5 {
     font-size: 2rem;
     color: #F58E81;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -57,6 +57,12 @@ h7 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 0.7rem;
+}
+
+h8 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -189,8 +195,8 @@ input[type=submit] {
 
 .box {
     background-color: white;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 8px;
     flex-basis: 100px;
     flex-grow: 1;
@@ -199,35 +205,49 @@ input[type=submit] {
 
 .box2 {
     background-color: white;
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     margin: 8px;
     flex-basis: 100px;
-    flex-grow: 4.5;
+    flex-grow: 15;
     text-align: center;
 }
 
 .box3 {
     background-color: white;
-    width: 300px;
-    height: 310px;
+    width: 200px;
+    height: 210px;
     margin: 8px;
     flex-basis: 100px;
-    flex-grow: 4.5;
+    flex-grow: 5;
     text-align: center;
+}
+
+.boxwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .icon {
     width: 60px;
-    margin-top: 35px;
+    margin-top: 17px;
 
 }
 
 .icon2 {
     width: 60px;
-    margin-top: 35px;
+    margin-top: 17px;
     margin-bottom: 20px;
 }
+
+.icon3 {
+    width: 60px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
 
 #mellemrum {
     width: 100%;
@@ -242,6 +262,8 @@ input[type=submit] {
     text-align: center;
     position: fixed;
     width: 100%;
+    height: 100%;
+    z-index: 3;
 }
 
 #menulist {
@@ -272,11 +294,17 @@ input[type=submit] {
 
 #logud {
     background-color: #EA847C;
-    padding: 1px;
-    margin-top: 165px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 /*** afleveringer ***/
+
+#afleveringer {
+    width: 435px;
+    margin: auto;
+}
 
 .sectionwrapper {
     display: flex;
@@ -289,7 +317,7 @@ input[type=submit] {
     background-color: #DEDCDB;
     width: 350px;
     height: 50px;
-    margin: 10px 60px;
+    margin: 10px 30px;
     padding: 12px;
 }
 
@@ -299,36 +327,51 @@ input[type=submit] {
     background-color: #DEDCDB;
     width: 350px;
     height: 50px;
-    margin: 10px 60px;
+    margin: 10px 30px;
     padding: 12px;
 }
 
 .tema {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
     background-color: #DEDCDB;
     width: 350px;
     height: 50px;
-    margin: 10px 60px;
+    margin: 10px 30px;
+    padding: 12px;
+
+}
+
+.tema2 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    background-color: #DEDCDB;
+    width: 350px;
+    height: 50px;
+    margin: 10px 30px;
     padding: 12px;
 
 }
 
 #afleveringer h6 {
-    margin: 0vw 13vw;
+    margin: 5vw 5vw 0 5vw;
     color: #EA5045;
+}
+
+#afleveringer h8 {
+    margin: 5vw;
 }
 
 .ikon {
     width: 20px;
     position: relative;
-    left: 330px;
+    left: 280px;
 }
 
 .pilned {
     width: 13px;
     position: relative;
-    left: 330px;
+    left: 280px;
     bottom: 20px;
 }
 
@@ -338,15 +381,15 @@ input[type=submit] {
     background-color: #DEDCDB;
     width: 350px;
     height: 50px;
+    margin: 10px 30px;
     padding: 12px;
-    margin: 10px 60px 0;
 
 }
 
 #pilnedtryk {
     width: 13px;
     position: relative;
-    left: 330px;
+    left: 280px;
     bottom: 20px;
 }
 
@@ -376,4 +419,74 @@ input[type=submit] {
 
 .hidden {
     visibility: hidden;
+}
+
+/** WEB VERSION **/
+
+@media only screen and (min-width: 600px) {
+
+    /*** forside ***/
+
+    section#forside {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*** afleveringer ***/
+
+    .tema {
+        margin:
+    }
+
+    .tema2 {
+        margin: 10px 30px 10px 20px;
+    }
+
+    .trykwrapper {
+        width: 445px;
+    }
+
+    #afleveringer h6 {
+        margin: 20px 25px 0;
+    }
+
+    #afleveringer h8 {
+        margin: 0 25px;
+    }
+
+    #afleveringer {
+        width: 870px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*** Burger menu ***/
+
+    #menu {
+        width: 30%;
+        position: absolute;
+        right: 0;
+    }
+
+    #keaicon {
+        margin-left: 100px;
+    }
+
+    /*** login ***/
+
+    .password {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+
+    .box2 {
+        flex-grow: 3;
+    }
+
+    .box3 {
+        flex-grow: 3;
+    }
 }
