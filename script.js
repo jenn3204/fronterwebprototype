@@ -3,22 +3,22 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
 
-    document.querySelector("#burgericon").addEventListener("click", toggleMenu);
+    document.querySelector("#burgericon").addEventListener("click", burgerMenu);
 
     document.querySelector("#pilnedtryk").addEventListener("click", showMore);
 
 }
 
-function toggleMenu() {
+function burgerMenu() {
 
-    document.querySelector("#togglemenu").classList.remove("hidden");
-    document.querySelector("#menuknap").addEventListener("click", backAgain);
+    document.querySelector("#burgermenu").classList.remove("hidden");
+    document.querySelector("#menuknap").addEventListener("click", burgerGone);
 
 
 }
 
-function backAgain() {
-    document.querySelector("#togglemenu").classList.add("hidden");
+function burgerGone() {
+    document.querySelector("#burgermenu").classList.add("hidden");
 
     document.querySelector("#keatitle").classList.remove("hidden");
 
@@ -27,7 +27,7 @@ function backAgain() {
 function showMore() {
     document.querySelector("#pilnedtryk").classList.add("hidden");
 
-    document.querySelector("#scrollnedcontainer").classList.remove("move");
+    document.querySelector("#tryknedcontainer").classList.remove("move");
 
     document.querySelector("#piloptryk").classList.remove("hidden");
 
@@ -38,7 +38,7 @@ function showLess() {
 
     document.querySelector("#pilnedtryk").classList.remove("hidden");
 
-    document.querySelector("#scrollnedcontainer").classList.add("move");
+    document.querySelector("#tryknedcontainer").classList.add("move");
 
     document.querySelector("#piloptryk").classList.add("hidden");
 
