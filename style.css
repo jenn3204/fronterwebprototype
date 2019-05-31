@@ -450,7 +450,7 @@ input[type=submit] {
 .righttext {
     position: relative;
     left: 420px;
-    bottom: 32px;
+    bottom: 35px;
 }
 
 .righttext h1 {
@@ -553,6 +553,40 @@ input[type=submit] {
     bottom: 5px;
 }
 
+/*** Materialer ***/
+
+#materialer h4 {
+    color: black;
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+#materialer {
+    width: 500px;
+    margin: auto;
+}
+
+.download {
+    width: 20px;
+    position: relative;
+    left: 440px;
+    top: 10px;
+}
+
+.link {
+    width: 20px;
+    position: relative;
+    left: 440PX;
+    top: 10PX;
+}
+
+.materialerbox {
+    background-color: #DEDCDB;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+}
+
 /** WEB VERSION **/
 
 @media only screen and (min-width: 600px) {
@@ -623,5 +657,55 @@ input[type=submit] {
 
     .box3 {
         flex-grow: 3;
+    }
+}
+
+/*** mobilversion af materialer og skema ***/
+
+@media only screen and (max-width: 450px) {
+
+    /*** materialer ***/
+
+    #materialer {
+        width: 380px;
+    }
+
+    .download {
+        left: 320px;
+    }
+
+    .link {
+        left: 320px;
+    }
+
+    .righttext {
+        left: 300px;
+    }
+
+    /*** skema ***/
+
+    #skema {
+        width: 380px;
+    }
+
+    .info {
+        width: 300px;
+    }
+
+    .info2 {
+        width: 300px;
+    }
+
+    .materialerikon {
+        left: 270px;
+    }
+
+    .linkikon {
+        left: 245px;
+    }
+
+    .bund {
+        width: 380px;
+
     }
 }
