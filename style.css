@@ -379,6 +379,14 @@ input[type=submit] {
     width: 20px;
     position: relative;
     left: 330px;
+    margin: 0;
+}
+
+#linkikon {
+    width: 20px;
+    position: relative;
+    left: 330px;
+    margin: 0;
 }
 
 .pilned {
@@ -386,6 +394,7 @@ input[type=submit] {
     position: relative;
     left: 330px;
     bottom: 20px;
+    margin: 0;
 }
 
 .tematryk {
@@ -404,13 +413,15 @@ input[type=submit] {
     position: relative;
     left: 330px;
     bottom: 20px;
+    margin: 0;
 }
 
 #piloptryk {
     width: 13px;
     position: relative;
-    left: 330px;
-    bottom: 40px;
+    left: 310px;
+    bottom: 20px;
+    margin: 0;
 }
 
 .tryknedbox {
@@ -451,6 +462,7 @@ input[type=submit] {
     position: relative;
     left: 420px;
     bottom: 35px;
+    width: 50px;
 }
 
 .righttext h1 {
@@ -460,6 +472,7 @@ input[type=submit] {
 
 .righttext p {
     color: #707070;
+    margin: 0;
 }
 
 .dato {
@@ -713,10 +726,11 @@ input[type=submit] {
 
     #afleveringer {
         width: 380px;
+        margin: 0;
     }
 
     .trykwrapper {
-        width: 380px;
+        width: 370px;
     }
 
     .naeste {
@@ -731,7 +745,7 @@ input[type=submit] {
 
     .tematryk {
         width: 340px;
-        margin: 5px;
+        margin: 5px 5px 0 5px;
     }
 
     .tema2 {
@@ -742,6 +756,11 @@ input[type=submit] {
     .tema {
         width: 340px;
         margin: 5px;
+    }
+
+    .tryknedbox {
+        width: 340px;
+        margin: 0 5px;
     }
 
     #afleveringer h6 {
