@@ -660,7 +660,7 @@ input[type=submit] {
     }
 }
 
-/*** mobilversion af materialer og skema ***/
+/*** rigtig mobilversion ***/
 
 @media only screen and (max-width: 450px) {
 
@@ -707,5 +707,44 @@ input[type=submit] {
     .bund {
         width: 380px;
 
+    }
+
+    /*** afleveringer ***/
+
+    #afleveringer {
+        width: 380px;
+    }
+
+    .trykwrapper {
+        width: 380px;
+    }
+
+    .naeste {
+        width: 340px;
+        margin: 5px;
+    }
+
+    .upload {
+        width: 340px;
+        margin: 5px;
+    }
+
+    .tematryk {
+        width: 340px;
+        margin: 5px;
+    }
+
+    .tema2 {
+        width: 340px;
+        margin: 5px;
+    }
+
+    .tema {
+        width: 340px;
+        margin: 5px;
+    }
+
+    #afleveringer h6 {
+        margin: 20px 0 0 0;
     }
 }
